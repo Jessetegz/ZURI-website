@@ -1,16 +1,19 @@
 body{
     background-color: white;
     color: black;
+    background-image: url(https://zuri.team/img/hero-bg.svg)
 }
 a{
     color: red;
+    text-decoration: none;
 }
 .main{
     text-align: center;
 }
 .aza{
-    margin-left: 10cm;
-    margin-right: 10cm;
+    margin-left: 8cm;
+    margin-right: 8cm;
+    font-size: 15pt;
 }
 .holoa{
     background-color: red;
@@ -18,6 +21,7 @@ a{
     border-color: red;
     height: 50px;
     width: 6cm;
+    margin-right: 0.5cm;
 }
 .holob{
     background-color: white;
@@ -25,7 +29,58 @@ a{
     border-color: red;
     height: 50px;
     width: 6cm;
+    margin-left: 0.5cm;
+}
+.holoa:hover{
+    background-color: white;
+    color: red;
+}
+.holob:hover{
+    background-color: red;
+    color: white;
 }
 .axa{
     color: red;
+}
+.axe{
+    margin-left: 10cm;
+    margin-right: 10cm;
+    font-size: x-large;
+}
+.tri{
+    display: flex;
+    font-size: 12pt;
+    font-family: Averta, sans-serif;
+    width: 100%;
+    text-align: justify;
+}
+.sas{
+    margin: 5%;
+}
+.ses{
+    margin: 5%;
+}
+.sos{
+    margin: 5%;
+}
+.quad{
+    display: flex;
+    text-align: justify;
+    width: 100%;
+}
+.jab{
+    margin: 7%;
+}
+.jeb{
+    margin: 7%;
+}
+.jib{
+    margin: 7%;
+}
+.job{
+    margin: 7%;
+}
+.icons img{
+    width: 18px;
+    margin-right: 5px;
 }
